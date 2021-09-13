@@ -397,11 +397,13 @@ static const NSTimeInterval kSelectionAnimationDuration = 0.3f;
 }
 
 + (NSString *)localizedStringWithKey:(NSString *)key {
-  NSBundle *containingBundle = [NSBundle bundleForClass:self];
-  NSURL *resourceBundleURL =
-      [containingBundle URLForResource:kResourceBundleName withExtension:@"bundle"];
-  NSBundle *resourceBundle = [NSBundle bundleWithURL:resourceBundleURL];
-  return [resourceBundle localizedStringForKey:key value:nil table:kStringTableName];
+  if ([key isEqualToString:kMDCItemBarStringKeyAccessibilityTabPositionFormat]) {
+    return @"%1$d of %2$d";
+  } else if ([key isEqualToString:kMDCItemBarStringKeyAccessibilityTabElementLabel]) {
+    return @"tab";
+  } else {
+    return nil;
+  }
 }
 
 + (NSString *)displayedTitleForTitle:(NSString *)title style:(MDCItemBarStyle *)style {
