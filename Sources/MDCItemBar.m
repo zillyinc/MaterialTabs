@@ -36,10 +36,10 @@ static const NSTimeInterval kDefaultAnimationDuration = 0.3f;
 static const CGFloat kPlaceholderCellWidth = 10.0f;
 
 /// Horizontal insets in regular size class layouts.
-static const CGFloat kRegularInset = 56.0f;
+static const CGFloat kRegularInset = 0;
 
 /// Horizontal insets in compact size class layouts.
-static const CGFloat kCompactInset = 8.0f;
+static const CGFloat kCompactInset = 0;
 
 /// KVO context pointer identifying changes in MDCItemBarItem properties.
 static void *kItemPropertyContext = &kItemPropertyContext;

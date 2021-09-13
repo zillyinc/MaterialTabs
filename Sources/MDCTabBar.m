@@ -52,7 +52,7 @@ static const CGFloat kImageTitlePaddingAdjustment = -3;
 static const CGFloat kImageOnlyBarHeight = 48;
 
 /// Height for image-only tab bars, in points.
-static const CGFloat kTitleOnlyBarHeight = 48;
+static const CGFloat kTitleOnlyBarHeight = 44;
 
 /// Height for image-and-title tab bars, in points.
 static const CGFloat kTitledImageBarHeight = 72;
