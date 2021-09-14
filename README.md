@@ -12,9 +12,9 @@ Since `/Tabs` was the only component that we used from that dependency, this pro
 
 So during the process of creation of this package, we:
 
-- Copy and pasted the source files of located here: https://github.com/material-components/material-components-ios/tree/v54.10.0/components/Tabs
-- Flattened out entire file structure
-- Copy and pasted all the missing dependencies from other folders within that same repository (always in the same tag), as well as from https://github.com/material-foundation/material-internationalization-ios
+- Copy and pasted the source files of located here: https://github.com/material-components/material-components-ios/tree/v54.10.0/components/Tabs;
+- Flattened out entire file structure (which includes not only moving the files, but fixing the `import` paths of header files);
+- Copy and pasted all the missing dependencies from other folders within that same repository (always in the same tag), as well as from https://github.com/material-foundation/material-internationalization-ios.
 
 We reckon this isn't the ideal way of maintaining this dependency, however, it was a very cost-efficient way to put this dependency in a working state.
 
