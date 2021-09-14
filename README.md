@@ -16,6 +16,8 @@ So during the process of creation of this package, we:
 - Flattened out entire file structure
 - Copy and pasted all the missing dependencies from other folders within that same repository (always in the same tag), as well as from https://github.com/material-foundation/material-internationalization-ios
 
+We reckon this isn't the ideal way of maintaining this dependency, however, it was a very cost-efficient way to put this dependency in a working state.
+
 ## Why v54.10.0?
 
 Because it's the version that we've been using for all these years, had no issues, and migrating to the latest version would be a pain, take some time, be regression-prone, and there're no reasons to upgrade this UI-only lib.
