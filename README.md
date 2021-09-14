@@ -1,10 +1,10 @@
 # MaterialTabs
 
-This repository is a private fork of a specific folder of https://github.com/material-components/material-components-ios located here: https://github.com/material-components/material-components-ios/tree/develop/components/Tabs, pinned at [v54.10.0](https://github.com/material-components/material-components-ios/releases/tag/v54.10.0).
+This repository is a fork of this specific folder https://github.com/material-components/material-components-ios/tree/v54.10.0/components/Tabs, pinned at [v54.10.0](https://github.com/material-components/material-components-ios/releases/tag/v54.10.0).
 
 ## Why this package was needed
 
-In the process of migrating our project to use only SPM, we had this dependency that has no intentions of supporting SPM. So this package was born with the intention to add SPM support to that dependency.
+In the process of migrating our project to use only SPM, we had this dependency that [has no intentions of supporting SPM](https://github.com/material-components/material-components-ios/issues/7559#issuecomment-894375323). So this package was born with the intention to add SPM support to that dependency.
 
 ## How this package was created
 
